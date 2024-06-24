@@ -14,12 +14,12 @@
     height: 30px;
 
     & .btn {
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.301);
+        background: rgba(154, 32, 32, 0.329);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.815);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
         font-size: 1.2rem;
-        border: 1px solid rgba(245, 245, 245, 0.212);
+        border: 1px solid rgb(245, 245, 245);
         padding: .2rem .5rem;
         border-radius: 3px;
         font-weight: 700;
@@ -33,7 +33,7 @@
             width: 10px;
             height: 50px;
             z-index: -1;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.807);
             display: block;
             content: '';
             backdrop-filter: blur(10px);

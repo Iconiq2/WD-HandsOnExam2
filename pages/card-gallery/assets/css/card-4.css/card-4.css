@@ -1,0 +1,137 @@
+@import url(https://db.onlinewebfonts.com/c/e7322a6673613ab13604fadda3d20e56?family=VALORANT);
+
+body {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d9227692-9ff9-4abd-98e1-4889a24cd232/df2wiqo-f5cf2cd3-3107-443c-b220-3c7c32e58919.png/v1/fill/w_1280,h_721/valorant_wallpaper_hd_neon_sign_by_eclipsewideedit_df2wiqo-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIxIiwicGF0aCI6IlwvZlwvZDkyMjc2OTItOWZmOS00YWJkLTk4ZTEtNDg4OWEyNGNkMjMyXC9kZjJ3aXFvLWY1Y2YyY2QzLTMxMDctNDQzYy1iMjIwLTNjN2MzMmU1ODkxOS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.zRI_Mal_md0fr8R6U5pa0rWXR1jn9im3_dg_z01PDes");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+}
+
+body:has(.phoenix-card:hover) {
+  background-image: url("https://wallpaperaccess.com/full/3909941.png");
+}
+
+body:has(.jett-card:hover) {
+  background-image: url("https://w0.peakpx.com/wallpaper/28/428/HD-wallpaper-jett-valorant-fps-game-jett-riot-riotbrasil-riotgames-valorant-valorantbrasil-wiwferr.jpg");
+}
+.design-4 .design-title {
+    position: absolute;
+    top: 3100px; /* Adjust this value to position it vertically */
+    left: 3%; /* Centers the text horizontally */
+    transform: translateX(-50%); /* Ensures the text is truly centered */
+    color: rgb(9, 0, 0);
+    font-size: 24px; /* Adjust the font size as needed */
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+.containerx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 290px;
+  backdrop-filter: blur(4px);
+  height: 100vh;
+ margin-top: 6vh;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  height: 450px;
+  width: fit-content;
+  margin: 0 auto;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.4s linear;
+}
+
+.card.phoenix {
+  background: url(https://i.pinimg.com/474x/f2/63/0e/f2630e4a0e3e29b37973256f7c854715.jpg);
+}
+
+.card.jett {
+  background: url(https://w0.peakpx.com/wallpaper/28/428/HD-wallpaper-jett-valorant-fps-game-jett-riot-riotbrasil-riotgames-valorant-valorantbrasil-wiwferr.jpg);
+}
+
+.card-container::before {
+  position: absolute;
+  color: white;
+  font-size: 42px;
+  bottom: 10px;
+  z-index: 2;
+  opacity: 0;
+  transform: translateY(30%);
+  transition: all 0.4s linear;
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background: rgb(243,236,230);
+  background: linear-gradient(180deg, transparent 20%, rgba(0,0,0,0.8) 100%);
+}
+
+.phoenix-card::before {
+  content: 'P H O E N I X';
+  font-size: 32px;
+}
+
+.jett-card::before {
+  content: 'J E T T';
+  font-size: 32px;
+}
+
+.avatar {
+  position: absolute;
+  bottom: 0;
+  width: 280px;
+  z-index: 1;
+  opacity: 0;
+  transform: translateY(0);
+  transition: transform 0.3s linear, opacity 0.3s linear;
+}
+
+.phoenix-card .avatar {
+  width: 300px;
+}
+
+.jett-card .avatar {
+  width: 300px;
+}
+
+.card-container:hover .avatar {
+  transform: translateY(-20%);
+  opacity: 1;
+}
+
+.card-container:hover .card {
+  transform: rotateX(20deg);
+}
+
+.card-container:hover::before {
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+.card-container:hover {
+  -webkit-box-shadow: 0px 300px 90px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 300px 90px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 300px 90px 0px rgba(0,0,0,0.75);
+}

@@ -1,0 +1,215 @@
+*, *::before, *::after, h6, p {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.contents1  {
+    width: 100vw;
+    height: 100vh; /* Adjust the height to fit your content */
+    background: url('../card-2.css/img/morganalol.webp') no-repeat center top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    
+}
+
+.hero-background .mascot {
+    position: absolute;
+    right: 2rem;
+    bottom: 0;
+    height: 3.5rem;
+    border-radius: 70%;
+    width: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero-background .mascot:hover {
+    animation: float 3s ease-in-out infinite;
+}
+
+.contents1 .top .logo {
+    height: 50px;
+}
+
+.contents1 .middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.contents1 .middle .note {
+    font-size: 1rem;
+    padding: 4rem;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.contents1 .middle .note:hover {
+    animation: alternate-reverse 10s ease-in-out forwards;
+}
+
+.contents1 .middle .card {
+    padding: 2rem;
+    width: 35vw;
+    background: rgba(255, 255, 255, 0.148);
+    box-shadow: 0 4px 30px rgba(81, 0, 255, 0.625);
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(10px);
+    font-size: 0.9rem;
+    border: 1px solid rgba(6, 6, 213, 0.619);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    position: relative;
+    opacity: 90%;
+    transition: transform 2s ease-in-out;
+    
+}
+
+.contents1 .middle .card:hover {
+    animation: fadeInUp 0.5s ease-in-out forwards;
+}
+
+.contents1 .middle .card .card-img {
+    position: absolute;
+    height: calc(100% - 4rem);
+    width: auto;
+    right: 2rem;
+    z-index: -1;
+    
+}
+
+.contents1 .middle .card .title {
+    padding: 1rem 0;
+    border-bottom: 1px rgb(246, 244, 255) solid;
+    width: fit-content;
+    font-weight: 700;
+    letter-spacing: 1.2rem;
+    filter: invert(1);
+    
+}
+
+.contents1 .middle .card .description {
+    padding: 1rem 0;
+    width: 65%;
+    font-size: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+    filter: invert(1);
+    
+}
+
+.contents1 .middle .card i {
+    filter: invert(1);
+}
+
+.contents1 .middle .others {
+    display: flex;
+    justify-content: space-between;
+    width: 35vw;
+    padding: 2rem;
+    transition: opacity 2s ease-in-out;
+    
+}
+
+.contents1 .middle .others:hover {
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.contents1 .middle .others p {
+    filter: invert(1);
+    padding: 0;
+    margin: 0;
+}
+
+.contents1 .bottom {
+    display: flex;
+    gap: 8rem;
+   margin-bottom: 20px;
+   margin-top: 135px;
+    filter: invert(1);
+    transition: transform 5s ease-in-out;
+    color: rgb(249, 249, 249);
+
+}
+
+.contents1 .bottom:hover {
+    animation: fadeoutUp 2s ease-in forwards;
+}
+
+.contents1 .bottom .creators {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contents1 .bottom .creators h6 {
+    padding: 0;
+    margin: 0;
+    font-weight: 650;
+}
+
+.contents1 .bottom .creators p {
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .contents1 .middle .card,
+    .contents1 .middle .others {
+        width: 70vw;
+    }
+
+    .hero-background .mascot {
+        height: 8rem;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+

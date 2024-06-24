@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero12 {
+    height: 100dvh;
+    width: 100vw;
+    position: relative;
+    top: 100px;
+}
+
+.hero12 .background .toxic {
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    height: 100dvh;
+}
+
+.hero12 .background .partial-color {
+    background-image: linear-gradient(to right top, #1000001c, #140101);
+    height: 100dvh;
+    width: 70vw;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+}
+
+.hero12 .content {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+    padding: 2rem;
+}
+
+.hero12 .content .left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50vw;
+}
+
+.hero12 .content .left img {
+    width: 35rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    box-shadow: 40px 45px 12px 2px rgba(252, 255, 251, 0.958);
+    -webkit-box-shadow: 40px 45px 12px 2px rgba(255, 0, 0, 0.233);
+    -moz-box-shadow: 40px 45px 12px 2px rgba(255, 0, 0, 0.084);
+    border-radius: 1%;
+    transition: transform 0.2s ease;
+}
+
+.hero12 .content .left img:hover {
+    transform: rotateZ(10deg);
+}
+
+.hero12 .content .right {
+    width: 50vw;
+}
+
+.hero12 .content .right .container {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.hero12 .content .right .container .designer {
+    font-weight: 100;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    color: rgba(246, 246, 246, 0.782);
+}
+
+.hero12 .content .right .container .name {
+    font-family: "Oswald", sans-serif;
+    font-size: 3.5rem;
+    color: rgba(210, 89, 14, 0.642);
+}
+
+.hero12 .content .right .container .name span {
+    font-size: 5rem;
+}
+
+.hero12 .content .right .container .message {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgba(175, 7, 7, 0.718);
+}
+
+.hero12 .content .right .container .content {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid black;
+    width: fit-content;
+    text-align: justify;
+    text-justify: inter-word;
+    color: rgba(228, 227, 227, 0.475);
+}
+
+.hero12 .content .right .container img {
+    height: 7rem;
+    width: fit-content;
+    opacity: 0.3;
+    border-radius: 50%;
+    transition: opacity 0.3s ease;
+    
+}
+
+.hero12 .content .right .container img:hover {
+    opacity: 1;
+}
+
+.hero12 .content .right .container .account {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.589);
+    font-size: 1rem;
+}
+
+.hero12 .content .right .container .account:hover {
+    color: rgb(227, 0, 0);
+}
+
+.hero12 .content .right .container nav {
+    display: flex;
+    gap: 1rem;
+    width: fit-content;
+}
+
+.hero12 .content .right .container nav a {
+    border: rgba(255, 255, 255, 0.534) 1px solid;
+    border-radius: 25px;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    font-size: clamp(.8rem, 1vw, 1.2rem);
+
+}
+
+.hero12 .content .right .container nav a:hover {
+    transform: translate(-0.3rem, -0.3rem);
+    filter: drop-shadow(0.3rem 0.3rem rgb(126, 22, 22));
+}
+
+.hero12 .content .right .container nav a.ghost {
+    background: linear-gradient(-8deg, #7b87aa 0%, #5269ad 100%);
+    background: -moz-linear-gradient(-8deg, #7b87aa 0%, #5269ad 100%);
+    background: -webkit-linear-gradient(-8deg, #7b87aa 0%, #5269ad 100%);
+}
+
+.hero12 .content .right .container nav a.poison {
+    background: linear-gradient(-8deg, #9900ff 0%, #d89eff 100%);
+    background: -moz-linear-gradient(-8deg, #9900ff 0%, #d89eff 100%);
+    background: -webkit-linear-gradient(-8deg, #9900ff 0%, #d89eff 100%);
+}
