@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato&display=swap');
+body {
+	background: url('https://i.pinimg.com/originals/48/94/01/489401562edd6d3418e6fda3fe032a13.jpg');
+}
+
+.containerxi {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Lato', sans-serif;
+}
+
+.cards {
+	width: 700px;
+	height: 400px;
+	   background: url('https://i.pinimg.com/originals/5c/45/03/5c450374540a4a5ab49b40c2f76f2cb6.jpg');
+	background: rgba(0, 0, 0, 0.364);
+	border-radius: 10px;
+}
+
+.card__containersx {
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: 100%;
+  -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4));
+}
+
+.tig_imgsrc {
+	transform: translateX(-35%);
+}
+.tig_imgsrc img{
+  -webkit-box-reflect: below 20px linear-gradient(rgb(255, 255, 255),rgba(255,255,255,0.4));
+}
+
+.card__conts {
+	color: #ffffffe3;
+}
+
+h5 {
+	font-size: 50px;
+	font-family: 'Kaushan Script', cursive;
+	margin: 0;
+}
+
+.card_roler {
+	font-size: 12px;
+	padding: 15px;
+	line-height: 2em;
+}
+
+.card_role span {
+	font-size: 20px;
+	margin-right: 5px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.card__skills {
+	display: flex;
+	height: 7px;
+	flex-wrap: wrap;
+	padding: 15px;
+	align-items: flex-end;
+	margin-bottom: 40px;
+}
+
+.card__skill {
+	flex-basis: 25%;
+	text-align: center;
+}
+
+.card__skill img {
+	max-width: 50px;
+}
+
+.card__skill p {
+	font-size: 13px;
+	margin: 0;
+}
+
+@media (max-width: 768px) {
+	.cards {
+		height: auto;
+	}
+	.card__container {
+		flex-direction: column-reverse;
+	}
+	h1 {
+		text-align: center;
+        color: blue;
+	}
+	.card__skills {
+		justify-content: center;
+		margin-bottom: 80px;
+	}
+	.card__skill {
+		height: 70px;
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+		text-align: center;
+		font-size: 12px;
+	}
+	.card__thumb {
+		position: absolute;
+		bottom: 85%;
+	}
+	.card__skill p,
+	.card__skill img {
+		margin: auto;
+	}
+	.card__skill img {
+		max-width: 35px;
+	}
+	.tig_img {
+		transform: translate(0px, -30px);
+	}
+	.tig_img img {
+		width: 150px;
+	}
+}
+
+

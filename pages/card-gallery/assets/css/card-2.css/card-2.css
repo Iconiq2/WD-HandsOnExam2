@@ -11,7 +11,7 @@ body {
 
 .contents1  {
     width: 100vw;
-    height: 100vh; /* Adjust the height to fit your content */
+    height: 100vh;
     background: url('../card-2.css/img/morganalol.webp') no-repeat center top;
     background-size: cover;
     display: flex;
