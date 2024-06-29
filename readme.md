@@ -61,9 +61,16 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+- this project is all about 5 unique hero styles, animations and a card gallery with seperated folder
 - Whats the purpose
+- the purpose would be how can we show case the linking of different folders etc
 - What are key components
+- the key components would be
+- design and theme of my website
+- implementation of heroes and cards
+- navigations 
 - What technology used and how it is used
+- that would be html, css, and lastly java 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -117,3 +124,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
+https://codepen.io/
