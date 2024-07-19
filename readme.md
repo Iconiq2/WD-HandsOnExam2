@@ -4,23 +4,23 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/Iconiq2">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="https://cdn1.epicgames.com/offer/24b9b5e323bc40eea252a10cdd3b2f10/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/CharlesLogo2.jpg alt="Charles" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">League</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  The unseen blade is the deadliest.
+  Your will, my hands..
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=randogs/WD-HNDSON2)
+![](https://github.com/Iconiq2/WD-HandsOnExam2
 
 ---
 
@@ -60,11 +60,11 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project- this project is all about 5 unique hero styles, animations and a card gallery with seperated folder
-- Whats the purpose- the purpose would be how can we show case the linking of different folders etc
-- What are key components- the key components would be
+- What is the project- the project is about creating animation.
+- Whats the purpose- to enhance my skill in creating these kind of animations.
+- What are key components- correct syntax to run the code.
 - design and theme of my website- implementation of heroes and cards, navigations. 
-- What technology used and how it is used- that would be html, css, and lastly java 
+- What technology used and how it is used- html, css, js.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -117,4 +117,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| codepen | help me build my website | https://codepen.io/ |
+| freecodecamp | help me understand the basic | https://www.freecodecamp.org/ |
+| geeksforgeeks | help me to understand the tools | https://www.geeksforgeeks.org/ |
+
